@@ -1,0 +1,27 @@
+.list {
+  max-width: 1080px;
+  margin: auto;
+  margin-top: 1em;
+}
+.card {
+  width: 250px;
+  background-color: var(--pico-card-background-color);
+  border: 1px solid var(--pico-card-border-color);
+  border-radius: 1em;
+  padding: 1em;
+  transition: transform 0.3s;
+  cursor: default;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+.card h1 {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.robots {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
